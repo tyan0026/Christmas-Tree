@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给王小懒的圣诞礼物</title>
+
+
+    <style>
+        body {
+            margin: 0;
+            height: 75vh;
+            overflow: hidden;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            background: #161616;
+            color: #c5a880;
+            font-family: sans-serif;
+        }
+        
+        .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }</style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 style = "text-align: center;">圣诞快乐啊！王小懒</h1>
+    <p style = "text-align: center;">居然还没发，快点给我发圣诞快乐！！！</p>
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="onButtonClick1()">好</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="onButtonClick2()">不好</button>
+    <script>
+        function onButtonClick1(){
+            window.location = "YES_second.html";
+        }
+
+        function onButtonClick2(){
+            window.location = "Tree.html";
+        }
+    </script>
+</body>
+</html>
